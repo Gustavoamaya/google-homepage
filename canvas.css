@@ -7,9 +7,11 @@ body{
     align-items: center;
     padding: 6px;
     
+    
 }
 
 .navbarAbout{
+    font-size: 14px;
     display: inline-block;
     padding: 5px;
     margin: 0 5px;
@@ -18,6 +20,7 @@ body{
 }
 
 .navbarStore{
+    font-size: 14px;
     display: inline-block;
     padding: 5px;
     margin: 0 5px;
@@ -28,7 +31,20 @@ body{
 
 
 .logo{
+    box-sizing: border-box;
+    min-height: 92px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}w
+}
+
+.searchbar{
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, sans-serif;\
+    color: #222;
+}
+
